@@ -4,28 +4,9 @@
             fetch="https://github.com/tshering1980"
             revision="refs/heads/cm-14.1" />
                 
-    <remote name="aosp"
-            fetch="https://android.googlesource.com"
-            review="android-review.googlesource.com"
-            revision="refs/tags/android-7.1.2_r36" />
+<project path="device/huawei/kiwi" name="android_device_huawei_kiwi" remote="tshering1980" />
 
-    <remote name="los"
-            fetch="https://github.com/LineageOS"
-            revision="refs/heads/cm-14.1" />
+<project path="kernel/huawei/kiwi" name="android_kernel_huawei_kiwi" remote="tshering1980" />
 
-    <!-- Uses ubports gerrit server since halium does not have one yet -->
-    <remote name="hal"
-            fetch="https://github.com"
-            review="http://review.ubports.com"
-            revision="refs/heads/halium-7.1" />
-
-    <remote name="them"
-            fetch="https://github.com/TheMuppets"
-            revision="refs/heads/cm-14.1" />
-
-    <default remote="los"
-             sync-j="8"
-             sync-c="true" />
-<project path="device/huawei/[device]" name="kiwi" remote="los" revision="refs/heads/cm-14.1" />
-
+<project path="vendor/huawei" name="proprietary_vendor_huawei" remote="them" />
 </manifest>
