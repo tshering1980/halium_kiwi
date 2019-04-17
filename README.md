@@ -71,7 +71,4 @@ Hall, Stephen (2016-05-02).
 
 [CyanogenMod 14.1 for Huawei Honor 5x](https://www.cyanogenmods.org/forums/topic/honor-5x-cm14-1-cyanogenmod-14-1-nougat-7-1-rom/)
 
-
-[Unlocking Honor 5x Bootloader How To Unlock Bootloader Of Huawei Phones Official Method](https://www.gizdev.com/unlock-bootloader-of-huawei/)
-
 Honor 5x Stock Firmware: [Complete List Of Official Honor 5x Stock Rom All Models ](https://www.gizrom.com/honor-5x-stock-rom/)
